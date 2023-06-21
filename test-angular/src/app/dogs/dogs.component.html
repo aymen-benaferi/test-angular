@@ -1,0 +1,14 @@
+<h1>Dogs component</h1>
+
+
+<div class="dog" *ngFor="let dog of dogs">
+
+    <img class="image-dog" src="../../assets/dog-1.jpg" alt="{{ dog.name }} image">
+    <div class="info">
+        <h3>{{ dog.name }}</h3>
+        
+        <div class="btn">
+            <button (click)="updateDog(dog)">Mettre à jour</button>
+            <button (click)="deleteDog(dog)">Supprimer</button>
+        </div>
+    </div>

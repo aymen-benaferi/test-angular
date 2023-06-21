@@ -1,0 +1,18 @@
+.dog {
+    display: flex;
+    justify-content: center;
+}
+
+.image-dog {
+    height: 300px;
+    margin: 50px;
+}
+
+.info {
+    margin-top: 40px;
+}
+
+.btn button {
+
+    margin-right: 10px;
+}
